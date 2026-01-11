@@ -9,7 +9,7 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "Hello, Spring Boot!";
+        return "Hello, spring boot learners";
     }
 
     @GetMapping("/hello/{name}")
